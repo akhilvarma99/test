@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .container{
+  max-width: unset !important;  
+} */
+
+.site-header {
+    border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.site-header-inner{
+    max-width: unset !important;
+}
+
+.main-logo {
+  max-width: 200px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ .navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 33px 0 10px;
+ }
+ 
+ .navbar-list li {
+     display: inline;
+     float: left;
+     padding: 3px 10px;
+     font-size: 15px;
+     font-family: Raleway,sans-serif;
+     color: #606060;
+     cursor: pointer;
+ }
+
+ .navbar-list li span:hover {
+     border-bottom: 0.2px solid #606060;
+ }
+
+ .icons-div{
+     text-align: right;
+     padding: 0% !important;
+ }
+
+ .navbar-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 33px 0 ;
+    float: right;
+ }
+
+ .navbar-icons li {
+     font-size: 15px;
+    display: inline;
+    float: left;
+    padding: 3px 10px;
+    cursor: pointer;
+ }
+
+ .navbar-icons li img {
+    width: 20px;
+    height: 20px;
+ }
+
+ .list-wrapper{
+     padding-left: 30px !important;
+ }
+
+/* media query for lg-screens */
+@media only screen and (min-width: 992px) {
+    .site-header {
+      padding: 0 55px;
+    }
+  }
+
+/* media query for small screens */
+  @media only screen and (min-width: 768px) {
+    .site-header {
+      padding: 0 22px;
+      
+    }
+  }  
+  .basket-wrapper{
+    position: relative;
+  }
+
+.cart-count { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: .4rem;
+  top: 0;
+  font-weight: 700;
+  background-color: #007749;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  min-width: 1em;
+  height: 1em;
+  }

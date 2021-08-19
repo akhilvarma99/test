@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Album example · Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
+    <link href="./assets/css/media-query.css" rel="stylesheet">
+
+    
+    
+  </head>
+  <body>
+
+    <header>
+      <div class="sample-header">
+              
+      </div>
+    </header>
+
+    <main role="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+         <div class="login-card shadow-sm">
+           <a class="back-a" href="login.html">Back</a>
+          <p class="h3 text-center">Welcome to Advisor Portal</p>
+          <br>
+
+          <div class="user-id-drop-div">
+            <a href="login-2.html">12345656</a> <img src="./assets/img/icons/arrow.svg">
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+
+              <ul class="nav nav-tabs row" id="myTab" role="tablist">
+                <li class="nav-item col-md-6" role="presentation">
+                  <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Login With Password</a>
+                </li>
+                <li class="nav-item  col-md-6" role="presentation">
+                  <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Login With OTP</a>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="form-group">
+                    <br>
+                    <label for="exampleInputEmail1">Enter Password</label>
+                    <input type="email" type="password" class="form-control shadow-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Password">
+                    <a class="float-right" href="#" data-toggle="modal" data-target="#forgot-password">Forgot Password?</a>
+                  </div>
+                </div>
+                <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <br>
+                  <div class="alert alert-secondary otp-txt mrgn-0" role="alert">
+                    Please enter the OTP sent to your mobile number 98*****180 as well as registered email ID san****ha@gmail.com
+                  </div>
+                  <div class="form-group">
+                    <br>
+                    <label for="exampleInputEmail1">Enter OTP</label>
+                    <input type="email" class="form-control shadow-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Eg :123456">
+                    <albel class="otp-expire-txt">Wait 60 seconds to regenerate </albel><a class="float-right link-inactive" href="#" aria-disabled="">Re-Send OTP</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <br> <br>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  I agree the <a class="text-u" href="#" data-toggle="modal" data-target="#staticBackdrop">terms & conditions</a>
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+        
+          <br>
+          <div class="row">
+            <div class="col-md-8 hide">
+              <a class="float-left m-top-10" href="#">Having problem signing in?</a>
+            </div>
+    
+            <div class="col-md-4">
+              <button type="button" class="btn btn-primary float-right">Next</button>
+            </div>
+
+            <div class="col-md-8 show-xs">
+              <br>
+              <a class="float-left m-top-10" href="#">Having problem signing in?</a>
+            </div>
+            
+          </div>
+          
+         </div>
+        </div>
+      </div>
+      
+      
+    </div>
+      
+        <!-- Modal Div Starts Here -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+  Launch static backdrop modal
+</button> -->
+
+<!-- Terms & Conditions Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-terms-conditions">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title  bold" id="staticBackdropLabel">Terms of Use</h5>
+        <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="terms-text-div">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">I Agree</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Forgot Password Modal -->
+<div class="modal fade" id="forgot-password" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="forgot-password" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title  bold" id="staticBackdropLabel">Forgot Password</h5>
+        <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Clicking forgot password link will redirect you to an external self help page where you can reset your password</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" >OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </main>
+<footer class="text-muted">
+  <div class="sample-footer">
+              
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="./assets/js/bootstrap.min.js"></script> 
+<script src="./assets/js/bootstrap.bundle.min.js"></script> 
+
+
+
+</html>

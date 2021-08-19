@@ -1,0 +1,59 @@
+.process-header{
+    text-align: center;
+    font-size: 32px;
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #919da9;
+}
+
+.process-img{
+    text-align: center;
+}
+
+.process-img-mobile{
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid #d1d5db;
+    padding: 50px 0;
+
+}
+.process-info{
+    font-weight: 500;
+    color: #2d2d2d;
+    margin: 0 0 14.5px;
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-size: 1.73333em;
+}
+
+.process-mobile-buttons-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.proces-mobile-buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.proces-mobile-buttons li {
+    display: inline-block;
+    border: none;
+    outline: 0;
+    line-height: 1;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: #172b4d;
+    text-align: center;
+    background: #f0f2f3;
+}
+
+.selected {
+    background: #d1d5db !important;
+}
